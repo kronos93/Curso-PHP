@@ -1,0 +1,4 @@
+display_errors=On
+display_startup_errors=On
+track_errors=On
+opcache.enable=0
