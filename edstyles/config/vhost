@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+    ServerAdmin samuel_-_rojas@hotmail.com
+    DocumentRoot "C:/xampp/htdocs/CURSO-PHP/edstyles/public"
+    ServerName edstyles.dev
+    #ServerAlias sc_agremiados.web
+    <Directory "C:/xampp/htdocs/CURSO-PHP/edstyles/public">
+        Options FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+    ErrorLog "logs/edstyles.dev-error.log"
+    CustomLog "logs/edstyles.dev-access.log" common
+</VirtualHost>

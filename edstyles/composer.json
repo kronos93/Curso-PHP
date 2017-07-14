@@ -1,0 +1,17 @@
+{
+    "name": "kronos93/edstyles",
+    "authors": [{
+        "name": "kronos93",
+        "email": "desconocido_-_93@hotmail.com"
+    }],
+    "require": {
+        "php": ">= 7.0.0",
+        "illuminate/database": "^5.4"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
