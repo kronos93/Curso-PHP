@@ -6,7 +6,11 @@ define('ROUTES', [
         ],
     'nosotros' => [
             'controller' => 'Page',
-            'action' => 'index',
+            'action' => 'about',
+        ],
+    'producto' => [
+            'controller' => 'Article',
+            'action' => 'show',
         ],
     'productos' => [
             'controller' => 'Article',

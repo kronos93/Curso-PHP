@@ -12,6 +12,14 @@
               <li><a href="<?= PUBLIC_PATH ?>nosotros">nosotros</a></li>
               <li><a href="<?= PUBLIC_PATH ?>productos">productos</a></li>
               <li><a href="<?= PUBLIC_PATH ?>contacto">contacto</a></li>
+              <li>
+                <form name="_xclick" target="paypal" action="https://www.paypal.com/mx/cgi-bin/webscr" method="post">
+                  <input type="hidden" name="cmd" value="_cart">
+                  <input type="hidden" name="business" value="samuel_-_rojas@hotmail.com">
+                  <input type="image" src="https://www.paypal.com/es_XC/i/btn/view_cart.gif" border="0" name="submit" alt="Realice pagos con PayPal: es rápido, gratis y seguro".>
+                  <input type="hidden" name="display" value="1">
+                </form>
+              </li>
             </ul>
           </nav>
         </div>

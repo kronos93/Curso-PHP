@@ -2861,13 +2861,78 @@ h1 {
     .producto__price:before {
       margin-right: .5em; }
 
+.product__page .main-center {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.product__page__size {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .product__page__size span {
+    background: tomato;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 1em;
+    margin-left: .5em; }
+
 .product__page__size, .product__page__color {
   margin: 0;
-  line-height: 2; }
+  line-height: 2;
+  color: tomato;
+  font-size: 1.5em; }
+
+.product__page__size {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .product__page__size label {
+    margin-right: 1em; }
 
 .product__page__buy {
   margin-top: 1em;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  background: steelblue;
+  border: none;
+  color: #fff;
+  line-height: 2.5em;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase; }
+  .product__page__buy:hover {
+    background: #38678f; }
+
+.product__page__img {
+  width: 75%; }
+
+.product__page select {
+  width: 100%;
+  border: 1px solid rgba(70, 130, 180, 0.6);
+  border-radius: 5px;
+  height: 2rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0 .5em;
+  font-family: "Open Sans", sans-serif;
+  color: #255484;
+  background: url(../img/select-icon.png) no-repeat right center/contain; }
+  .product__page select:focus {
+    box-shadow: none;
+    outline: none; }
+  .product__page select option {
+    display: block;
+    line-height: 3;
+    height: 2rem; }
 
 .l-footer {
   background: #222;
@@ -2925,3 +2990,36 @@ h1 {
 
 .espacio:before {
   margin-right: .5em; }
+
+.add-product-form .form-item {
+  margin-bottom: .8em; }
+
+.add-product-form input[type="text"],
+.add-product-form select,
+.add-product-form textarea {
+  width: 100%; }
+
+.add-product-form input,
+.add-product-form select {
+  height: 2em;
+  line-height: 2em; }
+
+.add-product-form textarea {
+  height: 6em;
+  margin-top: .5em; }
+
+a.add-product-link,
+a.to-cart-link {
+  background: steelblue;
+  font-size: .9em;
+  color: #f5f5f5;
+  border-radius: .3em; }
+  a.add-product-link:hover,
+  a.to-cart-link:hover {
+    color: #fff; }
+
+a.to-cart-link {
+  background: tomato; }
+  a.to-cart-link:hover {
+    color: #fff;
+    box-shadow: 0 3px 0 0 #e02200; }

@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 define('APP_PATH',__DIR__.'/../');
 define('PUBLIC_PATH','http://edstyles.dev/');
 //Composer
